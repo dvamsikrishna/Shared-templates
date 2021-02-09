@@ -1,8 +1,3 @@
-library identifier: 'Shared-librery@main', retriever: modernSCM(
-  [$class: 'GitSCMSource',
-   remote: 'https://github.com/dvamsikrishna/shared-librery.git',
-   credentialsId: ''])
-
 def call(String mavenversion, String jdkversion) {
 echo 'Calling Jenkins file'
 pipeline {
