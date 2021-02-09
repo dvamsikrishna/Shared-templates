@@ -1,5 +1,3 @@
-@Library('jenkins-shared-library@main') _
-
 def call(String mavenversion, String jdkversion) {
 echo 'Calling Jenkins file'
 pipeline {
